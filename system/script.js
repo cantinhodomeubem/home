@@ -5,6 +5,9 @@ function subir()
 
 function home()
 {
+
+	window.scrollTo(0, 500);
+
     let a = window.document.getElementById('res')
     a.innerHTML = `
     
@@ -90,6 +93,8 @@ function home()
 
 function nos()
 {
+	window.scrollTo(0, 500);
+
     let a = window.document.getElementById('res')
     a.innerHTML = `
     
@@ -175,6 +180,8 @@ function nos()
 
 function voce()
 {
+
+	window.scrollTo(0, 600);
     let a = window.document.getElementById('res')
     a.innerHTML = `
     
@@ -238,6 +245,7 @@ function voce()
 
 function qualidades()
 {
+	window.scrollTo(0, 550);
     let a = window.document.getElementById('res')
     a.innerHTML = `
     
@@ -319,6 +327,7 @@ function qualidades()
 
 function musicas()
 {
+	window.scrollTo(0, 500);
     let a = window.document.getElementById('res')
     a.innerHTML = `
     
@@ -630,6 +639,7 @@ function esconder4()
 
 function motivos()
 {
+	window.scrollTo(0, 1000);
     let a = window.document.getElementById('res')
     a.innerHTML = `
     
