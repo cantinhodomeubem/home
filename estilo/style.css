@@ -1,0 +1,464 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {margin: 0; padding: 0; color: white; font-family: 'Poppins', sans-serif;}
+:root
+{
+    --cor1: #42208C;
+    --cor2: #322073;
+    --cor3: #202359;
+    --cor4: #0D2840;
+    --cor5: #50D4F2;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: var(--cor2);
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+}
+
+button.top
+{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    left: 90%;
+    top: 90%;
+    background-color: var(--cor4);
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    cursor: pointer;
+}
+
+header
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-image: url(../images/img1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 50px black;
+}
+
+main
+{
+    margin-top: 50px;
+
+}
+
+div.opcoes
+{
+    max-width: 80%;
+    margin: auto;
+}
+
+button.botoesOP
+{
+    background-color: var(--cor4);
+    border: none;
+    padding: 10px;
+    margin: 2px 2px 2px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+button.botoesOP:hover
+{
+    background-color: var(--cor1);
+    box-shadow: 0px 0px 10px white;
+}
+
+div.content
+{
+    max-width: 90%;
+    margin: 200px auto;
+
+}
+
+img.imgcontent
+{
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+
+div.img
+{
+    margin: auto;
+    background-color: transparent;
+    background-size: initial;
+    background-attachment: fixed;
+    width: 400px;
+    height: 480px;
+    border-radius: 10px;
+}
+
+div#foto1
+{
+    background-image: url(../images/foto1.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+button.botaoletra
+{
+    padding: 10px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.397);
+    cursor: pointer;
+}
+
+button{
+    background: transparent;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.507);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover
+{
+    box-shadow: 0px 0px 10px white;
+}
+
+p#motivos
+{
+    height: 150px;
+}
+
+div.img
+{
+    background-color: transparent;
+    background-size: initial;
+    background-attachment: fixed;
+    width: 400px;
+    height: 550px;
+    
+}
+
+div#img1
+{
+    background-image: url('../images/img1.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img2
+{
+    background-image: url('../images/img2.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img3
+{
+    background-image: url('../images/img3.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img4
+{
+    background-image: url('../images/img4.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img5
+{
+    background-image: url('../images/img5.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img6
+{
+    background-image: url('../images/img6.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img7
+{
+    background-image: url('../images/img7.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img8
+{
+    background-image: url('../images/img8.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img9
+{
+    background-image: url('../images/img9.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img10
+{
+    background-image: url('../images/img10.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img11
+{
+    background-image: url('../images/img11.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img12
+{
+    background-image: url('../images/img12.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img13
+{
+    background-image: url('../images/img13.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img13
+{
+    background-image: url('../images/img13.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img14
+{
+    background-image: url('../images/img14.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img15
+{
+    background-image: url('../images/img15.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img16
+{
+    background-image: url('../images/img16.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img17
+{
+    background-image: url('../images/img17.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img18
+{
+    background-image: url('../images/img18.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img19
+{
+    background-image: url('../images/img19.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img20
+{
+    background-image: url('../images/img20.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+div#img21
+{
+    background-image: url('../images/img21.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img22
+{
+    background-image: url('../images/img22.jpeg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img23
+{
+    background-image: url('../images/img23.jpeg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img24
+{
+    background-image: url('../images/img24.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img25
+{
+    background-image: url('../images/img25.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img26
+{
+    background-image: url('../images/img26.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img27
+{
+    background-image: url('../images/img27.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img28
+{
+    background-image: url('../images/img28.jpeg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+
+div#img29
+{
+    background-image: url('../images/img29.jpeg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+
+div#img30
+{
+    background-image: url('../images/img30.jpeg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img31
+{
+    background-image: url('../images/img31.jpeg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img32
+{
+    background-image: url('../images/img32.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img33
+{
+    background-image: url('../images/img33.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img34
+{
+    background-image: url('../images/img34.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img35
+{
+    background-image: url('../images/img36.jpeg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img36
+{
+    background-image: url('../images/img36.jpeg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img37
+{
+    background-image: url('../images/img37.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img38
+{
+    background-image: url('../images/img38.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img39
+{
+    background-image: url('../images/img39.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img40
+{
+    background-image: url('../images/img40.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img41
+{
+    background-image: url('../images/img41.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img42
+{
+    background-image: url('../images/img42.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img43
+{
+    background-image: url('../images/img43.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img44
+{
+    background-image: url('../images/img44.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img45
+{
+    background-image: url('../images/img45.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+div#img46
+{
+    background-image: url('../images/img46.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
