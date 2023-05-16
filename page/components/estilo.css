@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{color: #DCDCDC; margin: 0; padding: 0; font-family: 'Inter', sans-serif;}
+
+body
+{
+    background-color: black;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    height: 150px;
+    margin: auto;
+    background-image: url(imgg1.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: inset 0px 0px 100px black;
+}
+main
+{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div.texto
+{
+    padding: 30px 0px 15px 0px;
+}
+
+img.pedidofoto
+{
+    padding: 10px 0px 0px 0px;
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+div.imagemdiv
+{
+    max-width: 500px;
+    height: 400px;
+    background-image: url(imgg3.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 100px black;
+    border-radius: 10px;
+}
+
+div.imagemdiv2
+{
+    max-width: 500px;
+    height: 400px;
+    background-image: url(imgg4.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 100px black;
+    border-radius: 10px;
+}
+
+div.imagemdiv3
+{
+    max-width: 500px;
+    height: 400px;
+    background-image: url(imgg5.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 100px black;
+    border-radius: 10px;
+}
+
+div.imagemdiv4
+{
+    max-width: 500px;
+    height: 400px;
+    background-image: url(imgg6.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 100px black;
+    border-radius: 10px;
+}
+
+div.imagemdiv5
+{
+    max-width: 500px;
+    height: 400px;
+    background-image: url(imgg7.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 100px black;
+    border-radius: 10px;
+}
+
+button.botoesOP
+{
+    background-color: var(--cor4);
+    border: 1px solid white;
+    padding: 10px;
+    margin: 2px 2px 2px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+button.botoesOP:hover
+{
+    background-color: var(--cor1);
+    box-shadow: 0px 0px 10px white;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+footer > div
+{
+    padding-bottom: 200px;
+}
